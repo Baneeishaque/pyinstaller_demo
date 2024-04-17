@@ -2,6 +2,7 @@
     && pyinstaller --clean ^
             --onedir ^
             --contents-directory . ^
+            --paths src/antlr_gen ^
             --add-data "conf/def_macros.txt:conf" ^
             --noconfirm ^
             src/main.py ^

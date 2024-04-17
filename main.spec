@@ -3,7 +3,7 @@
 
 a = Analysis(
     ['src\\main.py'],
-    pathex=[],
+    pathex=['src/antlr_gen'],
     binaries=[],
     datas=[('conf/def_macros.txt', 'conf')],
     hiddenimports=[],
