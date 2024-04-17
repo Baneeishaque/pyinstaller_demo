@@ -1,2 +1,0 @@
-"C:\Program Files\Python37\Scripts\pyinstaller.exe" welcome.py
-"C:\Program Files\Python37\Scripts\pyinstaller.exe" --onefile --windowed welcome.py
